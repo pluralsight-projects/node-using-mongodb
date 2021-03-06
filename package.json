@@ -9,7 +9,8 @@
     "test:module2": "mocha --exit './test/module2/*.spec.js' || true",
     "test:module3": "mocha --exit './test/module3/*.spec.js' || true",
     "test:module4": "mocha --exit './test/module4/*.spec.js' || true",
-    "test:module5": "mocha --exit './test/module5/*.spec.js' || true"
+    "test:module5": "mocha --exit './test/module5/*.spec.js' || true",
+    "lint": "./node_modules/.bin/eslint"
   },
   "author": "Emmanuel Henri",
   "license": "ISC",
@@ -18,12 +19,18 @@
     "expect.js": "^0.3.1",
     "express": "^4.17.1",
     "mocha": "^7.0.1",
-    "mongoose": "^5.8.11",
+    "mongoose": "^5.11.19",
     "nodemon": "^2.0.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-0": "^6.24.1"
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react-hooks": "^1.7.0"
   }
 }
